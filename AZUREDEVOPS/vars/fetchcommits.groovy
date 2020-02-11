@@ -6,6 +6,8 @@ println(jsonObj.environments.environment)
 String a=jsonObj.environments.environment.deploy.organization
 String orgname=a.replaceAll("\\[", "").replaceAll("\\]","");
 env.name = orgname
+  
+
 
 String b=jsonObj.environments.environment.deploy.key
 String projectName=b.replaceAll("\\[", "").replaceAll("\\]","");
