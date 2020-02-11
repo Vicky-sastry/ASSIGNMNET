@@ -9,3 +9,4 @@ String repoid=b.replaceAll("\\[", "").replaceAll("\\]","");
          sh 'curl -X GET -i -H "Accept:application/json" -d  -u $username:$password "http://3.15.18.214:8081/nexus/service/local/repositories/${repoid}/status" '
  
 }
+}
